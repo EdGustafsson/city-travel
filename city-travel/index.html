@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>City Travel</title>   
+    <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+
+
+        <header>     
+        
+            <img src="img/airplane-logo2.jpg" alt="airplane-logo2.png" id="headLogo">
+            <h2 id="headH2">City Travel</h2>
+    
+        </header>
+
+        <main>
+            
+            <div id="searchContainer">
+            
+                <input type="text" id="cityInput" min="100" max="300" required>
+                <button id="submitBtn">Go</button>
+            
+                <div id="cbContainer">
+                    <form>
+                        <input id="cbWeather" type="checkbox">
+                        <label for="cbWeather"> Only weather</label><br>
+                        <input id="cbVenues" type="checkbox">
+                        <label for="cbVenues"> Only attractions</label><br>
+                        <input id="cbSort" type="checkbox">
+                        <label for="cbSort"> Sort alphabetically</label>
+                      </form> 
+                </div>
+
+            </div>
+
+             <div id="contentContainer">
+
+            <h2 id="location"></h2>
+            
+            <section id=weatherContainer>
+            </section>
+
+            <h2 id="venueTitle"></h2>
+
+            <section id="venueContainer">
+            </section>
+
+
+            </div>
+
+            </main>
+        
+      <script src="main.js"></script>
+
+    </body>
+</html>

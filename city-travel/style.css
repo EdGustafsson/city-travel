@@ -1,0 +1,126 @@
+header{
+    display:flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#headH2{
+    margin:0;
+    margin-top: 1rem ;
+}
+
+#headLogo{
+    background-color: white;
+    display: block;
+    width: 5%;
+    height: 5%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+#cityInput{
+    margin-right: 1rem ;
+    margin-left: 1rem ;
+    overflow: hidden;
+    border-radius:1em;
+}
+
+#cbContainer {
+    margin-left: 5rem ;
+}
+
+#cbVenues{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-weight: bold ;
+}
+
+#searchContainer{
+    border-bottom: solid;
+    border-top: solid;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem ;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+}
+
+#contentContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#location{
+    text-transform: capitalize;
+    font-weight: bold ;
+}
+
+#weatherContainer{
+    
+    display:flex;
+    flex-direction:column;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+#weatherContainer > h2 {
+    
+    position:relative;
+    margin-left:32.5%;
+}
+
+#weatherContainer > div {
+    margin-right:auto;
+    margin-left:auto;
+    border:2px solid black;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    padding-left: 1rem;
+    width: 30%;
+}
+
+#venueContainer {
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+    grid-column-gap:2.5rem;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+#venueContainer > div {
+    border:2px solid black;
+    border-radius: 10px;
+    margin:0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#weatherContainer > div > img {
+    filter: brightness(0%);
+}
+
+#venueContainer > div > img {
+    filter: brightness(0%);
+}
+
+
+
+
+
